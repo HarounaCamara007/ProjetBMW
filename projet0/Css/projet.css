@@ -1,0 +1,332 @@
+h1 {
+    color: red;
+}
+
+/* #ButtonPlay{
+    position: relative;
+    left: 236px;
+    top: -100px;
+    height: 80px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 30px;
+    border: solid 4px;
+    border-radius: 10px;
+} */
+
+
+#vehicule{
+    background-color: blue;
+    height: 120px;
+    width: 1150px;
+    border: solid 4px;
+    position: relative;
+    left: 48px;
+    top: 1500px;
+}
+
+#M2Back{
+    position: relative;
+    top: 0px;
+    left: -86px;
+    height: 400px;
+    width: 513px;
+}
+
+#bandeM{
+    position: relative;
+    top: 62px;
+    left: 536px;
+    height: 1000px;
+    width: 156px;
+}
+
+#bmwDiv{
+    /* background-color: blue; */
+    height: 400px;
+    width: 1400px;
+    margin-left: -20px;
+    border: solid 4px;
+    position: relative;
+    top: 59px;
+}
+
+#bmwM2{
+    position: relative;
+    left: 0px;
+    height: 400px;
+    width: 850px;  
+}
+
+#bmwM2:hover{
+    position: relative;
+    left: 484px;
+    height: 400px;
+    width: 850px; 
+    transition: 3s ease-in-out;
+
+}
+
+.perf{
+    z-index: -1;
+    position: relative;
+    left: -820px;
+}
+
+.info{
+    position: relative;
+    left: -113px;
+    top: -78px;
+}
+
+.infoReponse{
+    position: relative;
+    top: -700px;
+    left: 1135px;
+}
+
+
+#info1 {
+    z-index: 1;
+    background-color: rgb(99, 144, 173);
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 438px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+
+    animation-duration: 3.8s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glissement {
+    from {
+        top: -332px;
+        left: 963px;
+        width: 438px;
+    height: 49px;
+    }
+  
+    to {
+        width: 245px;
+        transition: 2s ease; 
+    }
+}
+
+#info1:hover{
+    width: 245px;
+    transition: 2s ease; 
+}
+
+#info2 {
+    z-index: 1;
+    background-color: rgb(99, 144, 173);
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 438px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+
+    animation-duration: 3.8s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+#info2:hover{
+    width: 245px;
+    transition: 2s ease; 
+}
+
+#info3 {
+    z-index: 1;
+    background-color: rgb(99, 144, 173);
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 438px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+
+    animation-duration: 3.8s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+#info3:hover{
+    width: 245px;
+    transition: 2s ease; 
+}
+
+#info4 {
+    z-index: 1;
+    background-color: rgb(99, 144, 173);
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 438px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+
+    animation-duration: 3.8s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+#info4:hover{
+    width: 245px;
+    transition: 2s ease; 
+}
+
+#info5 {
+    z-index: 1;
+    background-color: rgb(99, 144, 173);
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 438px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+
+    animation-duration: 3.8s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+#info5:hover{
+    width: 245px;
+    transition: 2s ease; 
+}
+
+#info6 {
+    z-index: 1;
+    background-color: rgb(99, 144, 173);
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 438px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+
+    animation-duration: 3.8s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+#info6:hover{
+    width: 245px;
+    transition: 2s ease; 
+}
+
+/* #info1:hover{
+    background-color: red;
+    position: relative;
+    top: -332px;
+    left: 963px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+} */
+
+#info1Reponse {
+    background-color: rgb(213, 204, 204);
+    position: relative;
+    top: -100px;
+    left: -40px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#info2Reponse {
+    background-color: rgb(213, 204, 204);
+    position: relative;
+    top: -100px;
+    left: -40px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#info3Reponse {
+    background-color: rgb(213, 204, 204);
+    position: relative;
+    top: -100px;
+    left: -40px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#info4Reponse {
+    background-color: rgb(213, 204, 204);
+    position: relative;
+    top: -100px;
+    left: -40px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#info5Reponse {
+    background-color: rgb(213, 204, 204);
+    position: relative;
+    top: -100px;
+    left: -40px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#info6Reponse {
+    background-color: rgb(213, 204, 204);
+    position: relative;
+    top: -100px;
+    left: -40px;
+    width: 190px;
+    height: 49px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#logoM2{
+    z-index: -2;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 4px;
+    left: -61px;
+}
+
+.header{
+    border: 3px solid;
+    position: relative;
+    top: 9px;
+}
